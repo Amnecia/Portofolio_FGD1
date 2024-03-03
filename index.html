@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--Owner : Andreas Rafael Tobing -->
+  <!--Fullstack Web Development 2A-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portofolio 1.0</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Roboto+Condensed:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+          *{
+            font-family: 'Anta', static;
+        }
+        body{
+            min-height: 3200px;
+        }
+      .jumbotron{
+                padding-top : 2rem;
+                background-color: #0B60B0;
+        }
+        .navbar-toggler{
+         
+            background-color : white;
+        }
+        .nav-item:hover .nav-link{
+          background-color: #0B60B0;
+          border-radius: 5px; 
+        }
+
+        .card-img-top{
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            
+        }
+        .mycard{
+         
+            margin: 90px auto 0px auto;
+            width: 95%;
+            max-width: 1200px;
+        }
+        #Education{
+          padding-top : 2rem;
+                  
+        }
+     #About{
+      padding-top : 4rem;
+      padding-bottom: 7rem;
+     }
+     #footer{
+        margin-top : 80px;
+        padding-top : 100px;
+        padding-left : 40px;
+        padding-bottom : 40px;
+     }
+     #achievement {
+    margin-bottom: 20px;
+    padding-top : 80px;
+    padding-left : 20px;
+  }
+  .achievement{
+    padding-left : 20px;
+  }
+    </style>
+</head>
+<section>
+
+    <!-- Start Of Navbar -->
+    <nav class="navbar navbar-expand-lg bg-black shadow">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light" href="#" style = "padding-left : 2rem;">Portofolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style = "color: white;"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link active text-light shadow" aria-current="page" href="#">Home</a></li>
+              <li class="nav-item"><a class="nav-link text-light shadow" href="#About">About</a></li>
+              <li class="nav-item"><a class="nav-link text-light shadow" href="#">Projects</a>
+              </li><li class="nav-item"><a class="nav-link disabled text-light" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- End Of Navbar -->
+      
+
+      <!-- Start Of Jumbotron-->
+      <section class="jumbotron text-center">
+        <img class= "rounded-circle img-thumbnail shadow" src = "https://i.pinimg.com/736x/71/42/45/714245d210d546898240805498ce199a.jpg" alt = "Andreas Rafael Tobing" width="200px">
+        <h1 class="display-4">Anonymous</h1>
+        <p class="lead">This is Just A Placeholder</p>
+        <hr class="my-4">
+        <p>This is Just A Placeholder</p>
+        <a class="btn btn-primary btn-lg" href="#About" role="button">Learn more</a>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#000b76" fill-opacity="1" d="M0,32L24,37.3C48,43,96,53,144,53.3C192,53,240,43,288,48C336,53,384,75,432,69.3C480,64,528,32,576,48C624,64,672,128,720,154.7C768,181,816,171,864,176C912,181,960,203,1008,202.7C1056,203,1104,181,1152,197.3C1200,213,1248,267,1296,277.3C1344,288,1392,256,1416,240L1440,224L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"></path></svg>      </section>
+      <!-- End Of Jumbotron-->
+     
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style="transform: rotate(180deg);">
+        <path fill="#000b76" fill-opacity="1" d="M0,32L24,37.3C48,43,96,53,144,53.3C192,53,240,43,288,48C336,53,384,75,432,69.3C480,64,528,32,576,48C624,64,672,128,720,154.7C768,181,816,171,864,176C912,181,960,203,1008,202.7C1056,203,1104,181,1152,197.3C1200,213,1248,267,1296,277.3C1344,288,1392,256,1416,240L1440,224L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"></path>
+      </svg>
+    </section>
+      <!--Start Of About-->
+      <section id="About" style = "color : #000b76">
+        
+        <div class = "container text-center">
+            <h2 style="color : black;">About</h2>
+            <div class="row justify-content-around">
+                <div class="col-4" style="color : black; text-align: justify">
+                  Omniscient Reader's Viewpoint is a South Korean web novel, adapted into a webtoon and potentially a film series, that follows the story of Kim Dokja, an office worker obsessed with a web novel titled "Three Ways to Survive the Apocalypse." When the events of the novel abruptly become reality, Dokja is the only one who knows what's coming, due to his thorough reading of the story.
+                </div>
+                <div class="col-4" style="color : black; text-align: justify">
+                  Armed with this omniscient knowledge, Dokja navigates the dangerous and fantastical world as it unfolds, using his foreknowledge to survive and potentially rewrite the fate of the characters and the world itself. The story explores themes of survival, adaptation, and the power of knowledge in a world thrown into chaos.
+                </div>
+              </div>
+              </div>
+      </section>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#000b76" fill-opacity="1" d="M0,32L17.1,53.3C34.3,75,69,117,103,160C137.1,203,171,245,206,234.7C240,224,274,160,309,122.7C342.9,85,377,75,411,85.3C445.7,96,480,128,514,165.3C548.6,203,583,245,617,229.3C651.4,213,686,139,720,133.3C754.3,128,789,192,823,197.3C857.1,203,891,149,926,144C960,139,994,181,1029,181.3C1062.9,181,1097,139,1131,122.7C1165.7,107,1200,117,1234,101.3C1268.6,85,1303,43,1337,42.7C1371.4,43,1406,85,1423,106.7L1440,128L1440,320L1422.9,320C1405.7,320,1371,320,1337,320C1302.9,320,1269,320,1234,320C1200,320,1166,320,1131,320C1097.1,320,1063,320,1029,320C994.3,320,960,320,926,320C891.4,320,857,320,823,320C788.6,320,754,320,720,320C685.7,320,651,320,617,320C582.9,320,549,320,514,320C480,320,446,320,411,320C377.1,320,343,320,309,320C274.3,320,240,320,206,320C171.4,320,137,320,103,320C68.6,320,34,320,17,320L0,320Z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style="transform: rotate(180deg);"><path fill="#000b76" fill-opacity="1" d="M0,32L17.1,53.3C34.3,75,69,117,103,160C137.1,203,171,245,206,234.7C240,224,274,160,309,122.7C342.9,85,377,75,411,85.3C445.7,96,480,128,514,165.3C548.6,203,583,245,617,229.3C651.4,213,686,139,720,133.3C754.3,128,789,192,823,197.3C857.1,203,891,149,926,144C960,139,994,181,1029,181.3C1062.9,181,1097,139,1131,122.7C1165.7,107,1200,117,1234,101.3C1268.6,85,1303,43,1337,42.7C1371.4,43,1406,85,1423,106.7L1440,128L1440,320L1422.9,320C1405.7,320,1371,320,1337,320C1302.9,320,1269,320,1234,320C1200,320,1166,320,1131,320C1097.1,320,1063,320,1029,320C994.3,320,960,320,926,320C891.4,320,857,320,823,320C788.6,320,754,320,720,320C685.7,320,651,320,617,320C582.9,320,549,320,514,320C480,320,446,320,411,320C377.1,320,343,320,309,320C274.3,320,240,320,206,320C171.4,320,137,320,103,320C68.6,320,34,320,17,320L0,320Z"></path></svg><section id="Education" style = "padding : px;">
+        <!--Start Of Education-->
+        <div class="container text-center">
+            <h2>Education</h2>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-3">
+            <div class="col">
+                <div class="mycard" style="width: 18rem;">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.lZJ5rKGsx3QoviEqZuAs8QHaFj&pid=Api&P=0&h=180" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text text-center" style="padding:20px">This is Just A Placeholder  (Elementary School)</p>
+                    </div>
+                </div>
+            </div>
+        <div class="col">
+          <div class="mycard" style="width: 18rem;">
+            <img src="https://www.schoolsplus.co.uk/wp-content/uploads/2018/02/York-High.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center" style="padding:20px">This is Just A Placeholder  (High School)</p>
+            </div>
+          </div>
+          </div>
+          <div class="col">
+            <div class="mycard" style="width: 18rem;">
+              <img src="https://wallpapercave.com/wp/wp2809385.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-center" style="padding:20px">This is Just A Placeholder  (College)</p>
+              </div>
+            </div>
+            </div>
+        </div>
+        </div>
+  </section>
+
+      <!--End Of Education-->
+      <!--Start Of Achievements-->
+      <div class="container">
+         <div id="achievement">
+        <h2>Achievements</h2>
+        <br>
+       
+          <h3>Project of the Year Award</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et justo nec sapien ultricies feugiat.</p>
+        </div>
+        <div class="achievement">
+          <h3>100K Downloads Milestone</h3>
+          <p>Donec pretium mi sit amet sem ultricies, eu congue mauris mattis.</p>
+        </div>
+      
+        <div class="achievement">
+          <h3>Featured in TechMag</h3>
+          <p>Nulla nec nisi auctor, rutrum arcu in, tincidunt leo. Pellentesque a sapien eget libero dapibus feugiat.</p>
+        </div>
+      </div>
+      <!--End Of Achievements-->
+   <!--Start Of Footer -->
+   <section id= "footer" style = "background-color: black;">
+  <p style = "color : white;">&copy; 2023 My Website. All rights reserved.</p>
+  <ul>
+    <li><a href="#">Privacy Policy</a></li>
+    <li><a href="#">Terms of Service</a></li>
+    <li><a href="#">Contact Us</a></li>
+  </ul>
+  <ul>
+    <li>
+      <a href="#" style="color: white; display: inline-block; padding-left: 5px;">  
+        <i class="bi bi-instagram" style="color: white;"></i>
+        <span style="padding-left: 5px;">Instagram</span> 
+      </a>
+    </li>
+    <li>
+      <a href="#" style="color: white; display: inline-block; padding-left: 5px;">  
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+          <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+        </svg>        
+        <span style="padding-left: 5px;">Facebook</span> 
+      </a>
+      <li>
+        <a href="#" style="color: white; display: inline-block; padding-left: 5px;">  
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+            <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+          </svg>
+          <span style="padding-left: 5px;"> Twitter</span> 
+        </a>
+      </li>  </ul>
+</section>
+   <!--End Of Footer-->
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+</body>
+</html>
